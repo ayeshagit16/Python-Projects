@@ -1,4 +1,8 @@
-'''String Reversal'''
+'''
+String Reversal:
+Base Case: if string is empty or has a single character return it
+Recursive Case: last character + reverse of the remaining string
+'''
 
 def str_reverse(s):
     '''Reverese the elements of a string'''

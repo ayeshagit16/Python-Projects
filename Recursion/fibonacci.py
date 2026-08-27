@@ -1,5 +1,12 @@
-'''Fibonacci Series'''
+'''
+Fibonacci Series:
+Base Case: if n=0 return 0, if n=1 return 1
+Recursive Case: fibonacci(n-1) + fibonacci(n-2)
+'''
+from functools import lru_cache
 
+
+@lru_cache(maxsize=None)
 def fibonacci_series(n):
     '''Find the nth number in the fibonacci series
     '''
