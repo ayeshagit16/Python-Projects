@@ -8,8 +8,7 @@ from functools import lru_cache
 
 @lru_cache(maxsize=None)
 def fibonacci_series(n):
-    '''Find the nth number in the fibonacci series
-    '''
+    '''Find the nth number in the fibonacci series'''
     if n == 0:
         return 0
     elif n == 1:
