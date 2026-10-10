@@ -10,7 +10,17 @@ Your program should preserve the sign of negative numbers. Do not convert the in
 '''
 
 def reverse_number():
-    pass
+    num = int(input("Enter your number: "))
+
+    rem = 0
+    sign = -1 if num < 0 else 1
+    num = abs(num)
+
+    while num > 0:
+        rem = (rem * 10) + (num % 10)
+        num = num // 10
+
+    return rem * sign
 
 result = reverse_number()
 print(result)
