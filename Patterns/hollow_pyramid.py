@@ -9,3 +9,5 @@ Problem: Write a Python program to print the following pattern for a given numbe
 
 '''
 n = 5
+
+      
